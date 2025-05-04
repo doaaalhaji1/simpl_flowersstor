@@ -10,10 +10,15 @@ A basic flower store website that displays a selection of floral products with a
 
 ## File Structure
 flowers-store/
+
 ├── index.html # Main page
+
 ├── script.js # JavaScript functionality
+
 ├── style.css # Styling
+
 ├── images/ # Folder containing flower images
+
 
 ## How to Use
 1. Open `index.html` in any web browser
