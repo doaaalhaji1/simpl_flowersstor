@@ -1,0 +1,133 @@
+
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 100px;
+    background-color: #ffeaed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+header .logo{
+    width: auto;
+    height: 90%;
+    object-fit: contain;
+}
+header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+}
+header .menu li a{
+    text-decoration: none;
+    color: #c92853;
+    font-weight: bold;
+
+}
+main{
+    text-align: center;
+}
+h1{
+    color:#c92853;
+}
+h3{
+    color: #415c6f;
+}
+section.all_pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeaed;
+}
+section.all_pro article.product_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+section.all_pro article.product_list .prudects_item
+{
+    flex: 0 0 30%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+section.all_pro article.product_list .prudects_item .card img
+{
+    width:80% ;
+    height:40% ;
+    object-fit: contain;
+    margin: 2%;
+    
+}
+section.all_pro article.product_list .prudects_item .card p{
+   font-weight: bold;
+    color:rgb(250, 159, 202);
+    flex: 0 0 50%;
+
+    font-size: 15%;
+   
+}
+section.all_pro article.product_list .prudects_item .card {
+    width: 100%;
+    height: 40vh;
+    margin: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: #ffc9d7 5px 5px 10px 0px;
+    
+    
+
+    
+
+}
+.textdesign{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.fav_btn{
+    border-radius: 5px;
+    border-style: none;
+    background-color: #ffc9d7;
+    flex: 0 0 30%;
+    font-size: 15%;
+    box-shadow: #7a6067 2px 2px 4px 0px;
+    margin: 2px;
+    color: #415c6f;
+
+
+
+}
+
+.fav_btn:hover{
+  
+    background-color: #c92853;
+    transition: background-color 1s;
+  
+
+
+}
